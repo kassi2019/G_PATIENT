@@ -4,20 +4,20 @@
     <div>
       <router-view></router-view>
     </div>
-    <Nfooter></Nfooter>
+    <!-- <Nfooter></Nfooter> -->
   </main>
 </template>
 
 <script>
 import Navbar from "./Navbar";
 import Milieu from "./Milieu";
-import Nfooter from "./Nfooter";
+// import Nfooter from "./Nfooter";
 
 export default {
   components: {
     Navbar,
     Milieu,
-    Nfooter
+    // Nfooter
   },
   mounted() {
     console.log("Component mounted.");

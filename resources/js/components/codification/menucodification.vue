@@ -1,205 +1,33 @@
 <template>
   <ul id="menu">
     <li>
-      <a href="#" class="drop">Paramétre Généraux</a>
-      <!-- Begin 4 columns Item -->
-
-      <div class="dropdown_4columns">
-        <!-- Begin 4 columns container -->
-
-        <div class="col_1">
-          <h3></h3>
-          <ul>
-            <li>
-              <router-link :to="{name: 'monnaie'}" tag="a">
-                <i class="material-icons">edit</i>
-                <span>Monnaie</span>
-              </router-link>
-            </li>
-            <li>
-              <a href="#">Pays</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col_1">
-          <h3></h3>
-          <ul>
-            <li>
-              <a href="#">Signataires</a>
-            </li>
-            <li>
-              <a href="#">Exercices</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col_1">
-          <h3></h3>
-
-          <ul>
-            <li>
-              <a href="#">Sites</a>
-            </li>
-            <li>
-              <a href="#">Unités</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col_1">
-          <h3></h3>
-
-          <ul>
-            <li>
-              <a href="#">Système</a>
-            </li>
-            <li>
-              <a href="#">SuperClasse</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col_1">
-          <h3></h3>
-
-          <ul>
-            <li>
-              <a href="#">Entité</a>
-            </li>
-            <li>
-              <a href="#">Emplacements</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col_1">
-          <h3></h3>
-
-          <ul>
-            <li>
-              <a href="#">Modéles d'etat</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- End 4 columns container -->
+       <router-link :to="{name: 'fonction'}" tag="a">
+      <a href="#" class="drop">Fonctions</a>
+       </router-link>
     </li>
     <!-- End 4 columns Item -->
     <li>
-      <a href="#" class="drop">Structure</a>
-      <!-- Begin 4 columns Item -->
-
-      <div class="dropdown_6columns">
-        <!-- Begin 4 columns container -->
-
-        <div class="col_1">
-          <h3></h3>
-          <ul>
-            <li>
-              <a href="#">Budgetaires</a>
-            </li>
-            <li>
-              <a href="#">Comptables</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col_1">
-          <h3></h3>
-          <ul>
-            <li>
-              <a href="#">Analytiques</a>
-            </li>
-            <li>
-              <a href="#">Géographiques</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col_1">
-          <h3></h3>
-
-          <ul>
-            <li>
-              <a href="#">Emplacements</a>
-            </li>
-            <li>
-              <a href="#">Natures</a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- <div class="col_1">
-             
-                <h3>Misc</h3>
-                <ul>
-                    <li><a href="#">Design</a></li>
-                    <li><a href="#">Logo</a></li>
-                    <li><a href="#">Flash</a></li>
-                    <li><a href="#">Illustration</a></li>
-                    <li><a href="#">More...</a></li>
-                </ul>   
-                  
-        </div>-->
-      </div>
-      <!-- End 4 columns container -->
+      <a href="#" class="drop">Service</a>
+    
     </li>
     <li>
-      <a href="#" class="drop">Plan des Comptes</a>
-      <!-- Begin 4 columns Item -->
-
-      <div class="dropdown_7columns">
-        <!-- Begin 4 columns container -->
-
-        <div class="col_1">
-          <h3></h3>
-          <ul>
-            <li>
-              <a href="#">Plan budgétaires</a>
-            </li>
-            <li>
-              <a href="#">Plan analytiques</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col_1">
-          <h3></h3>
-          <ul>
-            <li>
-              <a href="#">Plan supplémentaire</a>
-            </li>
-            <li>
-              <a href="#">Plans externes</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col_1">
-          <h3></h3>
-
-          <ul>
-            <li>
-              <a href="#">Plans des tiers</a>
-            </li>
-            <li>
-              <a href="#">Plans des journaux</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col_1">
-          <h3></h3>
-          <ul>
-            <li>
-              <a href="#">Plan Comptables</a>
-            </li>
-            <li>
-              <a href="#">Plan Géographiques</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- End 4 columns container -->
+      <a href="#" class="drop">Examen</a>
+      
     </li>
+    <li>
+      <a href="#" class="drop">Préstation</a>
+      
+    </li>
+
+    <li>
+      <a href="#" class="drop">Salle</a>
+      
+    </li>
+    <li>
+      <a href="#" class="drop">Personnel</a>
+      
+    </li>
+
   </ul>
 </template>
 

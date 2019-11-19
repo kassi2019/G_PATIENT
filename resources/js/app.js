@@ -3,12 +3,16 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-
-require("./bootstrap");
+// import './../node_modules/jquery/dist/jquery.min.js';
+// import './../node_modules/bootstrap/dist/js/bootstrap.min.js';
+// require("./bootstrap");
 
 window.Vue = require("vue");
-import router from "./route";
 
+import router from "./route";
+import store from "./vuex/store";
+import fab from "vue-fab";
+Vue.component("fab", fab);
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

@@ -47,17 +47,18 @@
         </li>
         <li class="nav-item">
           <router-link :to="{name: 'pagecodification'}" tag="a" class="nav-link">
-            <i class="material-icons">vertical_split</i>
-            <span>Codifications</span>
+            
+            <i class="fa fa-cogs"></i>
+            <span>Paramétre</span>
           </router-link>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <router-link class="nav-link" :to="{name: 'accueilcomptageneral'}" tag="a">
             <i class="material-icons">note_add</i>
-            <span>Comptabilité générale</span>
+            <span>Paramétre</span>
           </router-link>
-        </li>
-        <li class="nav-item">
+        </li> -->
+        <!-- <li class="nav-item">
           <router-link class="nav-link" :to="{name:'accueilcomptaanalityque'}" tag="a">
             <i class="material-icons">view_module</i>
             <span>Comptabilité analytique</span>
@@ -98,7 +99,7 @@
             <i class="material-icons">error</i>
             <span>Etat Décaissements</span>
           </router-link>
-        </li>
+        </li> -->
       </ul>
     </div>
   </aside>

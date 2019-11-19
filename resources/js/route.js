@@ -8,8 +8,14 @@ import accueilcomptaanalityque from "./components/comptaanalytique/accueilcompta
 import Article from "./components/Article.vue";
 import Matiere from "./components/Matiere.vue";
 import Commentaire from "./components/Commentaire.vue";
+import fonction from "./components/codification/fonction.vue";
 Vue.use(VueRouter);
 const routes = [
+    {
+        path: "/fonction",
+        name: "fonction",
+        component: fonction
+    },
     {
         path: "/monnaie",
         name: "monnaie",
